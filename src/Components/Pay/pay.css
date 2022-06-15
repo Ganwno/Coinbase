@@ -1,0 +1,145 @@
+.main-pay{
+    display: flex;
+    width: fit-content;
+    height: 100vh;
+    justify-self: left;
+    justify-content: left;
+    padding-left: 200px;
+}
+
+.main-pay .pay-container{
+    border: 1px solid lightgray;
+    width: 650px;
+    height: 650px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 6px;
+}
+
+.pay-tabs{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.pay-tabs .tb{
+    background-color: white;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-top: none;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+}
+
+.active-tab{
+    border: none;
+    background-color: white;
+    color: blue;
+}
+
+.active-tb:before{
+    border-top: 3px solid blue;
+    border-radius: 5px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.pay-contents{
+    position: relative;
+}
+
+.cnt{
+    display: none;
+    position: relative;
+}
+
+.active-cnt{
+    display: block;
+    margin-top: 10px;
+    transition: all is ease-in-out;
+}
+
+.pay-contents .Amount{
+    font-size: xxx-large;
+    width: 250px;
+    text-align: center;
+    border: none;
+    color: blue;
+}
+
+.pay-contents .btns{
+    display: flex;
+    flex-direction: column;
+    margin: 65px;
+    align-items: center;
+}
+
+.pay-contents .btn3{
+    width: 550px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: medium;
+    font-weight: 900;
+    margin-top: 70px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.pay-contents .btn4{
+    width: 550px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: medium;
+    font-weight: 900;
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.btn4 input{
+    width: 160px;
+    height: 25px;
+    font-size: medium;
+}
+
+.pay-contents .btn5{
+    width: 550px;
+    height: 65px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+    font-size: medium;
+    margin-top: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btns p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: large;
+    color: gray;
+}
+
+
+

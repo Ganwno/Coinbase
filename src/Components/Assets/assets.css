@@ -1,0 +1,89 @@
+.asset{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vmax;
+    width: min-content;
+}
+
+.asset-table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    height: fit-content;
+    margin-top: 50px;
+}
+
+
+.asset-tab{
+    padding-left: 50px;
+}
+
+
+.div1{
+    width: 1000px;
+    height: min-content;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+}
+
+.div1 p{
+    align-self: flex-start;
+    font-size: larger;
+    font-weight: 900;
+    padding-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div1 table{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.div1 th{
+    font-size: small;
+    color: gray;
+    font-weight: 500;
+}
+
+.div1 tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid lightgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+
+.div1 td{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-self: auto;
+    padding-left: 50px;
+}
+
+.div1 img{
+    height: 22px;
+    width: 22px;
+    margin-right: 5px;
+}
+
+.div1 #sell-btn{
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

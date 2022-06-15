@@ -1,0 +1,21 @@
+.graph{
+    width: 1000px;
+    height: 100%;
+    align-self: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.graph p{
+    font-size: medium;
+    font-weight: 900;
+    margin-left: 50px;
+}
+
+.graph #graph_p{
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}

@@ -1,0 +1,16 @@
+.error{
+    background-color: blue;
+    width: 100%;
+    height: 100vmax;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.error p{
+    font-size: xxx-large;
+}
+
+a{
+    color: white;
+}

@@ -1,0 +1,82 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.buttons .add{
+    border: 2px solid lightgray;
+    height: 40px;
+    width: 155px;
+    align-self: center;
+    text-align: center;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 30px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 20px;
+    height: min-content;
+    border: 1px solid lightgrey;
+}
+
+.navbar button{
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons #btn0{
+    width: 120px;
+    height: 45px;
+    font-weight: 100;
+    font-size: small;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttons #btn1{
+        width: 120px;
+        height: 45px;
+        background-color: blue;
+        color: white;
+        font-weight: 900;
+        font-size: medium;
+        border: none;
+        border-radius: 5px;
+}
+
+.buttons #btn2{
+    font-weight: 900;
+    font-size: medium;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.buttons #btn1:hover{
+    background-color: darkblue;
+}
+
+.buttons #btn2:hover{
+    background-color: lightgray;
+}
+
+.buttons button:hover{
+    cursor: pointer;
+}
