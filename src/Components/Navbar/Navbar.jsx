@@ -2,8 +2,11 @@ import React, { useState } from 'react'
 import "./navbar.css"
 import "../Modal/modal.css"
 import Modal from '../Modal/Modal';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = ({header}) => {
+  const navigate = useNavigate("");
+
   const [show, setShow] = useState(false)
   return (
     <div className='main' >
@@ -19,7 +22,7 @@ const Navbar = ({header}) => {
         <Modal show={show}>
 
         </Modal>
-        <button id='btn2'> Send/Recieve </button>
+        <button id='btn2' onClick={() => {navigate("/pay")}}> Send/Recieve </button>
         </div>  
         
     </div>

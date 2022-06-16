@@ -28,7 +28,7 @@ const Pay = ({ balance }) => {
               
               <button className='btn5'> Send Bitcoin </button>
 
-              <p> Balance:{balance}</p>
+              <p> Balance:${balance}</p>
             </div>
           </div>
 
@@ -39,7 +39,7 @@ const Pay = ({ balance }) => {
               <button className='btn4'>Add to <BiWallet size={20} /> Wallet  <AiOutlineRight /> </button>
               <button className='btn5'> Recieve Bitcoin </button>
 
-              <p> Balance: {balance}</p>
+              <p> Balance: ${balance}</p>
             </div>
           </div>
 

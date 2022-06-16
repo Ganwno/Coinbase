@@ -2,22 +2,8 @@ import React, { useState, useEffect } from 'react'
 import "./graph.css"
 import { Line } from "react-chartjs-2"
 import { Chart as ChartJS } from "chart.js/auto"
-import { collection, getDocs } from 'firebase/firestore';
-import { db } from '../../firebase-config';
 
-const Graph = ({ balance }) => {
-  const [showcoins, setShowCoins] = useState([]);
-
-  useEffect(() => {
-    const coinref = collection(db, "coins");
-    const getCoins = async () => {
-      const Data = await getDocs(coinref);
-      setShowCoins(Data.docs.map((doc) => ({
-        ...doc.data(), id: doc.id
-      })));
-    }
-    getCoins();
-  }, []);
+const Graph = ({ balance,showcoins }) => {
 
   const data = {
     labels: [

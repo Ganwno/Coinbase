@@ -4,7 +4,7 @@ import { AiOutlineRight  } from "react-icons/ai"
 import { GrBitcoin } from "react-icons/gr"
 import { AiFillDollarCircle } from 'react-icons/ai'
 
-const Tab = () => {
+const Tab = ({ balance }) => {
   const [togglestate, setTogglestate] = useState(1);
   const toggleTab = (index) =>{
       setTogglestate(index);
@@ -26,7 +26,7 @@ const Tab = () => {
         <button className='btn4'>With <AiFillDollarCircle size={20} />  Wallet  <AiOutlineRight /> </button>
         <button className='btn5'> Buy Bitcoin </button>
 
-        <p> Balance: $26671</p>
+        <p> Balance: ${balance}</p>
         </div>
         </div>
 
@@ -37,7 +37,7 @@ const Tab = () => {
         <button className='btn4'>Add <AiFillDollarCircle size={20} /> Wallet  <AiOutlineRight /> </button>
         <button className='btn5'> Sell Bitcoin </button>
 
-        <p> Balance: $26671</p>
+        <p> Balance: ${balance}</p>
         </div>
         </div>
 
@@ -48,7 +48,7 @@ const Tab = () => {
         <button className='btn4'>To <AiFillDollarCircle size={23} /> Wallet  <AiOutlineRight /> </button>
         <button className='btn5'> Convert Bitcoin </button>
 
-        <p> Balance: $26671</p>
+        <p> Balance: ${balance}</p>
         </div>
         </div>
 

@@ -3,7 +3,7 @@ import "./transfer.css"
 import { AiOutlineRight  } from "react-icons/ai"
 
 
-const Transfer = () => {
+const Transfer = ({balance}) => {
   return (
     <div className='transfer'>
         
@@ -12,7 +12,7 @@ const Transfer = () => {
         <button id='btn4'>With <img src="" alt="" /> Wallet  <AiOutlineRight /> </button>
 
         <button id='btn5'> Buy Bitcoin </button>
-        <p> Balance: $26671</p>
+        <p> Balance: ${balance}</p>
         </div>
         
     </div>

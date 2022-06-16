@@ -28,7 +28,6 @@ const Trade = () => {
         <table>
           <tr>
             <th id='th1'>Name</th>
-            <th>Past 24h</th>
             <th>Price</th>
             <th>Change</th>
             <th>Market Cap</th>
@@ -41,7 +40,6 @@ const Trade = () => {
                 <>
                   <tr>
                     <td id='td1'><img src={coin.icon} alt="/" /> {coin.symbol}</td>
-                    <td> ----- </td>
                     <td>{'$'}{Math.round(parseInt(coin.price))}</td>
                     <td>{coin.priceChange1h}%</td>
                     <td>{'$'}{Math.trunc(coin.marketCap)}</td>
