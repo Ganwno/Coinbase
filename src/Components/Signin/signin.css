@@ -25,7 +25,7 @@
     border: none;
 }
 
-.form-div form{
+.form-div{
     height: 200px;
     width: 350px;
     font-size: large;
@@ -63,4 +63,13 @@
      cursor: pointer;
 }
 
+.form-div p{
+    text-align: center;
+    color: black;
+    font-size: small;
+}
+
+.form-div a{
+    color: black;
+}
 
